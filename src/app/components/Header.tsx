@@ -20,7 +20,7 @@ function Header() {
 3.  SEO Challenges: CSR can be less SEO-friendly, as search engines may have difficulty indexing content that requires JavaScript to render.
 4.  Increased Load Time: Initial load may take longer, especially with heavy JavaScript, as everything must be processed on the client’s device.
 5.  Rich User Experience: CSR allows for more dynamic, interactive, and seamless user experiences.
-6.  Performance Dependent on Client: The performance relies on the user's device, which can affect rendering speed for users with slower devices.
+6.  Performance Dependent on Client: The performance relies on the user&apos;s device, which can affect rendering speed for users with slower devices.
 7.  Popular Frameworks: CSR is often used in frameworks like React, Angular, and Vue.js.
 
           </p>
@@ -40,7 +40,7 @@ Server-side rendering (SSR) refers to the process where a web page is rendered o
 <div className='bg-purple-500'>
    <h1 className='text-4xl italic font-bold'>(Static Site Genrative)</h1>
    <p>
-   Static Site Generation (SSG) is the process of generating static HTML files for each page of a website at build time. Here's an overview of Static Site Generation (SSG):
+   Static Site Generation (SSG) is the process of generating static HTML files for each page of a website at build time. Here&apos;s an overview of Static Site Generation (SSG):
 1.  Build Time Rendering: Pages are generated as static HTML during the build process, not at runtime, making them ready to serve instantly.
 2.  Improved Performance: Pre-rendered HTML files are served to users quickly, often through a CDN, resulting in fast load times.
 3.  SEO-Friendly: Since the HTML is pre-rendered, search engines can easily crawl and index content, improving SEO.
@@ -53,7 +53,7 @@ Server-side rendering (SSR) refers to the process where a web page is rendered o
    </p>
    <div className='bg-orange-500'>
 <h1 className='text-4xl italic font-bold'> (Incrmental Site Regenrative)</h1>
-<p> Incremental Static Regeneration (ISR) is a technique that allows you to update static pages after they’ve been built without needing to rebuild the entire site. Here's a breakdown:
+<p> Incremental Static Regeneration (ISR) is a technique that allows you to update static pages after they’ve been built without needing to rebuild the entire site. Here&apos;s a breakdown:
 1.  Update Static Pages: With ISR, individual pages can be updated after the initial build, making static sites more dynamic.
 2.  On-Demand Regeneration: Pages are regenerated at runtime when requested, but only if they have become stale, based on a defined time interval.
 3.  Fast Initial Load: ISR serves pre-rendered static content first, ensuring fast page loads, while background regeneration keeps the page up-to-date.
